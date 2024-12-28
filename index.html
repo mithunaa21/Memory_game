@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image with Centered Text</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('woody.avif'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .text-box {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+            color: #000; 
+        }
+        button{
+            background-color: aqua;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-box">
+        "Welcome to a world of memory and mystery, where every flip uncovers a spark of discovery and brings you closer to greatness. 
+        Each card holds a hidden secret, waiting to be revealed by your sharp mind and keen instincts. 
+        Stay focused, trust your brilliance, and let the story unfold as you master the art of memory. 
+        <br><strong>The challenge awaits—are you ready to make your mark?</strong>"
+        <br><br>
+        <button onclick="op()">Let's start</button>
+        <script>
+            function op(){
+window.location.href="index.html";
+            }
+        </script>
+    </div>
+</body>
+</html>
